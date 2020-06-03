@@ -54,10 +54,10 @@ network Scenario
                 playgroundSizeZ = playgroundSizeZ;
                 @display("p=30,0;i=misc/globe");
         }
-        manager: TraCIScenarioManagerLaunchd {
-            parameters:
-                @display("p=512,128");
-        }
+//        manager: TraCIScenarioManagerLaunchd {
+//            parameters:
+//                @display("p=512,128");
+//        }
         node[0]: Car {
         }
 
