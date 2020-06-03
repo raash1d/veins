@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/polyconvertConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/mps/src/osm2sumo/cities/boston/sumoCfg/boston.net.xml"/>
+        <osm-files value="cities/boston/sumoCfg/boston_bbox.osm.xml"/>
+        <osm.keep-full-type value="false"/>
+        <type-file value="/home/mps/src/osm2sumo/typemap/Polyconvert.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/mps/src/osm2sumo/cities/boston/sumoCfg/boston.poly.xml"/>
+    </output>
+
+</configuration>
